@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Sportskart</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.8/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/250d13e7c2.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" sizes="16x16" href=".\logo\favicon-32x32.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/sportkart.PNG" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+    <!----------About--------->
+    <div class="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <p>We're known more by the impact we create
+                than the titles we hold. Impact that is brought by
+                working together on audacious challenges at scale
+                with an aim to revolutionize for the Indian customer.
+                We believe great ideas can emerge from anywhere
+                and must be backed. Our people - backed by our
+                culture of end-to-end ownership - have revolutionised
+                India's e-commerce sector - several times over!.We have a dedicated Workplace
+                Equality charter that focuses on
+                inclusive talent attraction, talent
+                development & retention, and culture &
+                policies, supported by strong
+                leadership commitment.
+            </p>
+        </div>
+        <hr>
+        <h2>Our Mission</h2>
+        <p>Our journey of building India's biggest unicorn
+            start-up has been full of successes, but also failures
+            and learning from them. That's why there's calculated
+            risk-taking, a high willingness to learn and improvise,
+            and a growth orientation built into everything we do.
+            Whether it be opening a new warehouse, or making
+            our mobile app a bit more consumer friendly, we're
+            always experimenting, learning and growing!.Our culture of care extends to our people,
+            stakeholders, customers and the planet! We do not
+            believe in a one size fits all strategy. Our benefits and
+            care policies are driven by empathy and customised
+            to the unique needs of individual Flipsters. Because
+            when Flipsters and their families are cared for, they
+            can focus on doing their best work. We put your
+            hopes, dreams and endeavours first - always.
+        </p>
+    </div>
+
+    <!--------Footer------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <a href="index.html"><img src="images/sportkart.PNG"></a>
+                    <p>Our Purpose is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/nithinkumar.gaddam">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/nithin_reddy2106/">Instagram</a></li>
+                        <li><a href="https://twitter.com/Nithinkumar2106">Twitter</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCz0C8IT33so0eFD0FncTksg">Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy; Copyright 2022 - Nithin E-Commerce</p>
+        </div>
+    </div>
+
+    <!---------Javascript for togglemenu------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
